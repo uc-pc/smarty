@@ -1,0 +1,45 @@
+<?php
+/* Smarty version 4.3.0, created on 2023-02-23 08:08:49
+  from 'C:\xampp\htdocs\Learningsmarty\smartylearning\Template\initial.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_63f71101094747_03495576',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '8d72255de28e80c4ba7773e832369aeccdf2edbc' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Learningsmarty\\smartylearning\\Template\\initial.tpl',
+      1 => 1677136109,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_63f71101094747_03495576 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '112530920163f711010280a3_86581609';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    paragraph: <?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+; 
+    <?php echo $_smarty_tpl->tpl_vars['para']->value;?>
+<br><br>
+    <?php echo json_encode($_smarty_tpl->tpl_vars['arr1']->value);?>
+
+    <?php echo json_encode($_smarty_tpl->tpl_vars['arr2']->value);?>
+
+</body>
+</html><?php }
+}
